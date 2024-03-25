@@ -1,0 +1,21 @@
+{
+    "name": "ESPShark",
+    "keywords": "esp32, pcap, sniffer",
+    "description": "A library for sniffing packets that arrive to ESP32",
+    "authors":
+	{
+		"name": "Andreock",
+		"maintainer": true
+	},
+	"repository":
+    {
+        "type": "git",
+        "url": "https://github.com/CapibaraZero/ESPShark"
+    },
+    "version": "1.0",
+    "frameworks": "arduino",
+    "dependencies":
+    {
+        "ArduinoPcap": "https://github.com/spacehuhn/ArduinoPcap.git"
+    }
+}
